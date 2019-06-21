@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursoBizTalk.ConsumoServicios.Esquemas", "CursoBizTalk.ConsumoServicios.Esquemas\CursoBizTalk.ConsumoServicios.Esquemas.btproj", "{45DA2EEE-E032-4B22-B1D0-F1CD162C0FCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursoBizTalk.ConsumoServicios.Mapas", "CursoBizTalk.ConsumoServicios.Mapas\CursoBizTalk.ConsumoServicios.Mapas.btproj", "{FA0760D6-9093-439B-B102-4EC444007827}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursoBizTalk.ConsumoServicios.Orquestaciones", "CursoBizTalk.ConsumoServicios.Orquestaciones\CursoBizTalk.ConsumoServicios.Orquestaciones.btproj", "{EDAF9BF8-4DE2-40A9-9BFD-0A143253BA14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursoBizTalk.ConsumoServicios.Pipelines", "CursoBizTalk.ConsumoServicios.Pipelines\CursoBizTalk.ConsumoServicios.Pipelines.btproj", "{287277D1-C97C-45E8-9251-6081D4C41753}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{45DA2EEE-E032-4B22-B1D0-F1CD162C0FCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45DA2EEE-E032-4B22-B1D0-F1CD162C0FCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45DA2EEE-E032-4B22-B1D0-F1CD162C0FCE}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{45DA2EEE-E032-4B22-B1D0-F1CD162C0FCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45DA2EEE-E032-4B22-B1D0-F1CD162C0FCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45DA2EEE-E032-4B22-B1D0-F1CD162C0FCE}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{FA0760D6-9093-439B-B102-4EC444007827}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA0760D6-9093-439B-B102-4EC444007827}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA0760D6-9093-439B-B102-4EC444007827}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{FA0760D6-9093-439B-B102-4EC444007827}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA0760D6-9093-439B-B102-4EC444007827}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA0760D6-9093-439B-B102-4EC444007827}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{EDAF9BF8-4DE2-40A9-9BFD-0A143253BA14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDAF9BF8-4DE2-40A9-9BFD-0A143253BA14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDAF9BF8-4DE2-40A9-9BFD-0A143253BA14}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{EDAF9BF8-4DE2-40A9-9BFD-0A143253BA14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDAF9BF8-4DE2-40A9-9BFD-0A143253BA14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDAF9BF8-4DE2-40A9-9BFD-0A143253BA14}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{287277D1-C97C-45E8-9251-6081D4C41753}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{287277D1-C97C-45E8-9251-6081D4C41753}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{287277D1-C97C-45E8-9251-6081D4C41753}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{287277D1-C97C-45E8-9251-6081D4C41753}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{287277D1-C97C-45E8-9251-6081D4C41753}.Release|Any CPU.Build.0 = Release|Any CPU
+		{287277D1-C97C-45E8-9251-6081D4C41753}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

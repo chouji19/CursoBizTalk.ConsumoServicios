@@ -1,0 +1,366 @@
+﻿#if __DESIGNER_DATA
+#error Do not define __DESIGNER_DATA.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<om:MetaModel MajorVersion="1" MinorVersion="3" Core="2b131234-7959-458d-834f-2dc0769ce683" ScheduleModel="66366196-361d-448d-976f-cab5e87496d2" xmlns:om="http://schemas.microsoft.com/BizTalk/2003/DesignerData">
+    <om:Element Type="Module" OID="25947bad-2ed3-4881-bd57-4822858c0c08" LowerBound="1.1" HigherBound="77.1">
+        <om:Property Name="ReportToAnalyst" Value="True" />
+        <om:Property Name="Name" Value="CursoBizTalk.ConsumoServicios.Orquestaciones" />
+        <om:Property Name="Signal" Value="False" />
+        <om:Element Type="PortType" OID="f73aa0f1-14bd-44ab-a42e-38ab2a243b5b" ParentLink="Module_PortType" LowerBound="20.1" HigherBound="27.1">
+            <om:Property Name="Synchronous" Value="True" />
+            <om:Property Name="TypeModifier" Value="Internal" />
+            <om:Property Name="ReportToAnalyst" Value="True" />
+            <om:Property Name="Name" Value="AccountPortType" />
+            <om:Property Name="Signal" Value="False" />
+            <om:Element Type="OperationDeclaration" OID="3f0ecf92-09e5-4937-9ee2-ac48679656b7" ParentLink="PortType_OperationDeclaration" LowerBound="22.1" HigherBound="26.1">
+                <om:Property Name="OperationType" Value="RequestResponse" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="Operation_1" />
+                <om:Property Name="Signal" Value="False" />
+                <om:Element Type="MessageRef" OID="7ccff502-2516-4bb5-8b73-8e479be05476" ParentLink="OperationDeclaration_RequestMessageRef" LowerBound="24.13" HigherBound="24.22">
+                    <om:Property Name="Ref" Value="CursoBizTalk.ConsumoServicios.Orquestaciones.AccountRq" />
+                    <om:Property Name="ReportToAnalyst" Value="True" />
+                    <om:Property Name="Name" Value="Request" />
+                    <om:Property Name="Signal" Value="False" />
+                </om:Element>
+                <om:Element Type="MessageRef" OID="7f7776cc-75c0-42d1-b542-cc5f87a61b98" ParentLink="OperationDeclaration_ResponseMessageRef" LowerBound="24.24" HigherBound="24.35">
+                    <om:Property Name="Ref" Value="CursoBizTalk.ConsumoServicios.Orquestaciones.AccountResp" />
+                    <om:Property Name="ReportToAnalyst" Value="True" />
+                    <om:Property Name="Name" Value="Response" />
+                    <om:Property Name="Signal" Value="False" />
+                </om:Element>
+            </om:Element>
+        </om:Element>
+        <om:Element Type="PortType" OID="dcad965f-6512-4dbb-a095-64c56e9cbb40" ParentLink="Module_PortType" LowerBound="27.1" HigherBound="34.1">
+            <om:Property Name="Synchronous" Value="True" />
+            <om:Property Name="TypeModifier" Value="Internal" />
+            <om:Property Name="ReportToAnalyst" Value="True" />
+            <om:Property Name="Name" Value="CuentasPortType" />
+            <om:Property Name="Signal" Value="False" />
+            <om:Element Type="OperationDeclaration" OID="a7d8f067-f48e-40dc-ac54-6b291d5ade86" ParentLink="PortType_OperationDeclaration" LowerBound="29.1" HigherBound="33.1">
+                <om:Property Name="OperationType" Value="RequestResponse" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="Operation_1" />
+                <om:Property Name="Signal" Value="False" />
+                <om:Element Type="MessageRef" OID="54b57d87-38b9-4cb3-bd0e-ff768ebbcb79" ParentLink="OperationDeclaration_RequestMessageRef" LowerBound="31.13" HigherBound="31.25">
+                    <om:Property Name="Ref" Value="CursoBizTalk.ConsumoServicios.Orquestaciones.JSONCuentaRq" />
+                    <om:Property Name="ReportToAnalyst" Value="True" />
+                    <om:Property Name="Name" Value="Request" />
+                    <om:Property Name="Signal" Value="False" />
+                </om:Element>
+                <om:Element Type="MessageRef" OID="0488008c-db87-4892-8865-54d3a6cebcb5" ParentLink="OperationDeclaration_ResponseMessageRef" LowerBound="31.27" HigherBound="31.41">
+                    <om:Property Name="Ref" Value="CursoBizTalk.ConsumoServicios.Orquestaciones.JSONCuentaResp" />
+                    <om:Property Name="ReportToAnalyst" Value="True" />
+                    <om:Property Name="Name" Value="Response" />
+                    <om:Property Name="Signal" Value="False" />
+                </om:Element>
+            </om:Element>
+        </om:Element>
+        <om:Element Type="MultipartMessageType" OID="1a0a2dae-35fd-4c6d-83c3-338ebffa5f0d" ParentLink="Module_MessageType" LowerBound="4.1" HigherBound="8.1">
+            <om:Property Name="TypeModifier" Value="Internal" />
+            <om:Property Name="ReportToAnalyst" Value="True" />
+            <om:Property Name="Name" Value="AccountRq" />
+            <om:Property Name="Signal" Value="True" />
+            <om:Element Type="PartDeclaration" OID="53b166ab-af74-4452-8879-011df0bc904a" ParentLink="MultipartMessageType_PartDeclaration" LowerBound="6.1" HigherBound="7.1">
+                <om:Property Name="ClassName" Value="CursoBizTalk.ConsumoServicios.Esquemas.AccountRq" />
+                <om:Property Name="IsBodyPart" Value="True" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="Body" />
+                <om:Property Name="Signal" Value="True" />
+            </om:Element>
+        </om:Element>
+        <om:Element Type="MultipartMessageType" OID="fe458520-a850-40a6-aa81-13f5f6cfccb3" ParentLink="Module_MessageType" LowerBound="8.1" HigherBound="12.1">
+            <om:Property Name="TypeModifier" Value="Internal" />
+            <om:Property Name="ReportToAnalyst" Value="True" />
+            <om:Property Name="Name" Value="AccountResp" />
+            <om:Property Name="Signal" Value="True" />
+            <om:Element Type="PartDeclaration" OID="ea5f65f1-c501-4c50-a604-77d355acaca5" ParentLink="MultipartMessageType_PartDeclaration" LowerBound="10.1" HigherBound="11.1">
+                <om:Property Name="ClassName" Value="CursoBizTalk.ConsumoServicios.Esquemas.AccountResp" />
+                <om:Property Name="IsBodyPart" Value="True" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="Body" />
+                <om:Property Name="Signal" Value="True" />
+            </om:Element>
+        </om:Element>
+        <om:Element Type="MultipartMessageType" OID="8352f830-64d8-44d5-97bc-176d2851869f" ParentLink="Module_MessageType" LowerBound="12.1" HigherBound="16.1">
+            <om:Property Name="TypeModifier" Value="Internal" />
+            <om:Property Name="ReportToAnalyst" Value="True" />
+            <om:Property Name="Name" Value="JSONCuentaRq" />
+            <om:Property Name="Signal" Value="True" />
+            <om:Element Type="PartDeclaration" OID="68e7b55a-b1e4-4fed-895f-62dda854c168" ParentLink="MultipartMessageType_PartDeclaration" LowerBound="14.1" HigherBound="15.1">
+                <om:Property Name="ClassName" Value="CursoBizTalk.ConsumoServicios.Esquemas.CuentaReqJSON" />
+                <om:Property Name="IsBodyPart" Value="True" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="Body" />
+                <om:Property Name="Signal" Value="True" />
+            </om:Element>
+        </om:Element>
+        <om:Element Type="MultipartMessageType" OID="765a8122-0500-449e-a900-25c744f29905" ParentLink="Module_MessageType" LowerBound="16.1" HigherBound="20.1">
+            <om:Property Name="TypeModifier" Value="Internal" />
+            <om:Property Name="ReportToAnalyst" Value="True" />
+            <om:Property Name="Name" Value="JSONCuentaResp" />
+            <om:Property Name="Signal" Value="True" />
+            <om:Element Type="PartDeclaration" OID="a9344cb3-75ea-4af4-accb-633adaebad4e" ParentLink="MultipartMessageType_PartDeclaration" LowerBound="18.1" HigherBound="19.1">
+                <om:Property Name="ClassName" Value="CursoBizTalk.ConsumoServicios.Esquemas.CuentasResponseJSON" />
+                <om:Property Name="IsBodyPart" Value="True" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="Body" />
+                <om:Property Name="Signal" Value="True" />
+            </om:Element>
+        </om:Element>
+        <om:Element Type="ServiceDeclaration" OID="5c75d4f2-b4fe-4e31-be0f-056ff2b1a55b" ParentLink="Module_ServiceDeclaration" LowerBound="34.1" HigherBound="76.1">
+            <om:Property Name="InitializedTransactionType" Value="False" />
+            <om:Property Name="IsInvokable" Value="False" />
+            <om:Property Name="TypeModifier" Value="Internal" />
+            <om:Property Name="ReportToAnalyst" Value="True" />
+            <om:Property Name="Name" Value="GetAccounts" />
+            <om:Property Name="Signal" Value="False" />
+            <om:Element Type="ServiceBody" OID="207ba709-4c58-4dcd-b4b1-a658bd0f41a1" ParentLink="ServiceDeclaration_ServiceBody">
+                <om:Property Name="Signal" Value="False" />
+                <om:Element Type="Receive" OID="6760d632-1451-4d2c-b6ca-38f50372e22b" ParentLink="ServiceBody_Statement" LowerBound="47.1" HigherBound="49.1">
+                    <om:Property Name="Activate" Value="True" />
+                    <om:Property Name="PortName" Value="AccountPort" />
+                    <om:Property Name="MessageName" Value="AccountRqMsj" />
+                    <om:Property Name="OperationName" Value="Operation_1" />
+                    <om:Property Name="OperationMessageName" Value="Request" />
+                    <om:Property Name="ReportToAnalyst" Value="True" />
+                    <om:Property Name="Name" Value="Receive_1" />
+                    <om:Property Name="Signal" Value="True" />
+                </om:Element>
+                <om:Element Type="Scope" OID="c91bd05b-140b-459e-b272-b70900a8f0d7" ParentLink="ServiceBody_Statement" LowerBound="49.1" HigherBound="74.1">
+                    <om:Property Name="InitializedTransactionType" Value="True" />
+                    <om:Property Name="IsSynchronized" Value="False" />
+                    <om:Property Name="ReportToAnalyst" Value="True" />
+                    <om:Property Name="Name" Value="Scope_1" />
+                    <om:Property Name="Signal" Value="True" />
+                    <om:Element Type="Construct" OID="106e4dad-a43c-416e-89f8-cca152acf9b2" ParentLink="ComplexStatement_Statement" LowerBound="54.1" HigherBound="60.1">
+                        <om:Property Name="ReportToAnalyst" Value="True" />
+                        <om:Property Name="Name" Value="ConstructCuentaReq" />
+                        <om:Property Name="Signal" Value="True" />
+                        <om:Element Type="Transform" OID="f1071930-92bf-4e77-bfe0-32006a50c831" ParentLink="ComplexStatement_Statement" LowerBound="57.1" HigherBound="59.1">
+                            <om:Property Name="ClassName" Value="CursoBizTalk.ConsumoServicios.Mapas.AccountRq_JSONCuentaRq" />
+                            <om:Property Name="ReportToAnalyst" Value="True" />
+                            <om:Property Name="Name" Value="Transform_Account" />
+                            <om:Property Name="Signal" Value="True" />
+                            <om:Element Type="MessagePartRef" OID="9fa2c695-c99c-427c-8931-db1a302679e8" ParentLink="Transform_InputMessagePartRef" LowerBound="58.121" HigherBound="58.138">
+                                <om:Property Name="MessageRef" Value="AccountRqMsj" />
+                                <om:Property Name="PartRef" Value="Body" />
+                                <om:Property Name="ReportToAnalyst" Value="True" />
+                                <om:Property Name="Name" Value="MessagePartReference_1" />
+                                <om:Property Name="Signal" Value="False" />
+                            </om:Element>
+                            <om:Element Type="MessagePartRef" OID="ef155450-2e4b-495a-aa79-bd86195b11e4" ParentLink="Transform_OutputMessagePartRef" LowerBound="58.36" HigherBound="58.57">
+                                <om:Property Name="MessageRef" Value="JSONCuentaReqMsj" />
+                                <om:Property Name="PartRef" Value="Body" />
+                                <om:Property Name="ReportToAnalyst" Value="True" />
+                                <om:Property Name="Name" Value="MessagePartReference_2" />
+                                <om:Property Name="Signal" Value="False" />
+                            </om:Element>
+                        </om:Element>
+                        <om:Element Type="MessageRef" OID="8764bd1b-a38d-44d2-a311-0681e0e6f3b6" ParentLink="Construct_MessageRef" LowerBound="55.31" HigherBound="55.47">
+                            <om:Property Name="Ref" Value="JSONCuentaReqMsj" />
+                            <om:Property Name="ReportToAnalyst" Value="True" />
+                            <om:Property Name="Signal" Value="False" />
+                        </om:Element>
+                    </om:Element>
+                    <om:Element Type="Send" OID="0f141233-7413-429f-b71d-3829cd71498e" ParentLink="ComplexStatement_Statement" LowerBound="60.1" HigherBound="62.1">
+                        <om:Property Name="PortName" Value="ServicioCuentasPort" />
+                        <om:Property Name="MessageName" Value="JSONCuentaReqMsj" />
+                        <om:Property Name="OperationName" Value="Operation_1" />
+                        <om:Property Name="OperationMessageName" Value="Request" />
+                        <om:Property Name="ReportToAnalyst" Value="True" />
+                        <om:Property Name="Name" Value="Send_CuentaRq" />
+                        <om:Property Name="Signal" Value="True" />
+                    </om:Element>
+                    <om:Element Type="Receive" OID="2fed6904-66ab-4c40-b7c4-a7dcd081245f" ParentLink="ComplexStatement_Statement" LowerBound="62.1" HigherBound="64.1">
+                        <om:Property Name="Activate" Value="False" />
+                        <om:Property Name="PortName" Value="ServicioCuentasPort" />
+                        <om:Property Name="MessageName" Value="JSONCuentaRspMsj" />
+                        <om:Property Name="OperationName" Value="Operation_1" />
+                        <om:Property Name="OperationMessageName" Value="Response" />
+                        <om:Property Name="ReportToAnalyst" Value="True" />
+                        <om:Property Name="Name" Value="Receive_CuentaResponse" />
+                        <om:Property Name="Signal" Value="True" />
+                    </om:Element>
+                    <om:Element Type="Construct" OID="6ae647d2-5f60-4370-a366-5a2c6599b891" ParentLink="ComplexStatement_Statement" LowerBound="64.1" HigherBound="70.1">
+                        <om:Property Name="ReportToAnalyst" Value="True" />
+                        <om:Property Name="Name" Value="ConstructMessage_1" />
+                        <om:Property Name="Signal" Value="True" />
+                        <om:Element Type="Transform" OID="6f975750-2bd5-48a8-b03d-854232d3d762" ParentLink="ComplexStatement_Statement" LowerBound="67.1" HigherBound="69.1">
+                            <om:Property Name="ClassName" Value="CursoBizTalk.ConsumoServicios.Mapas.JSONCuentaResp_AccountResp" />
+                            <om:Property Name="ReportToAnalyst" Value="True" />
+                            <om:Property Name="Name" Value="Transform_1" />
+                            <om:Property Name="Signal" Value="True" />
+                            <om:Element Type="MessagePartRef" OID="e362596a-8d83-4cd6-b1a9-9526c1b17209" ParentLink="Transform_InputMessagePartRef" LowerBound="68.123" HigherBound="68.144">
+                                <om:Property Name="MessageRef" Value="JSONCuentaRspMsj" />
+                                <om:Property Name="PartRef" Value="Body" />
+                                <om:Property Name="ReportToAnalyst" Value="True" />
+                                <om:Property Name="Name" Value="MessagePartReference_3" />
+                                <om:Property Name="Signal" Value="False" />
+                            </om:Element>
+                            <om:Element Type="MessagePartRef" OID="c5026daf-aa2a-4878-9e03-1b22f7b5bf31" ParentLink="Transform_OutputMessagePartRef" LowerBound="68.36" HigherBound="68.55">
+                                <om:Property Name="MessageRef" Value="AccountRespMsj" />
+                                <om:Property Name="PartRef" Value="Body" />
+                                <om:Property Name="ReportToAnalyst" Value="True" />
+                                <om:Property Name="Name" Value="MessagePartReference_4" />
+                                <om:Property Name="Signal" Value="False" />
+                            </om:Element>
+                        </om:Element>
+                        <om:Element Type="MessageRef" OID="007178fc-3c21-4775-bad7-09b2f269040d" ParentLink="Construct_MessageRef" LowerBound="65.31" HigherBound="65.45">
+                            <om:Property Name="Ref" Value="AccountRespMsj" />
+                            <om:Property Name="ReportToAnalyst" Value="True" />
+                            <om:Property Name="Signal" Value="False" />
+                        </om:Element>
+                    </om:Element>
+                    <om:Element Type="Send" OID="f74528a0-4dcc-47b2-8078-8d7a1a87ea8f" ParentLink="ComplexStatement_Statement" LowerBound="70.1" HigherBound="72.1">
+                        <om:Property Name="PortName" Value="AccountPort" />
+                        <om:Property Name="MessageName" Value="AccountRespMsj" />
+                        <om:Property Name="OperationName" Value="Operation_1" />
+                        <om:Property Name="OperationMessageName" Value="Response" />
+                        <om:Property Name="ReportToAnalyst" Value="True" />
+                        <om:Property Name="Name" Value="Send_1" />
+                        <om:Property Name="Signal" Value="True" />
+                    </om:Element>
+                </om:Element>
+            </om:Element>
+            <om:Element Type="PortDeclaration" OID="1fff417e-7a85-4160-ab07-52d94ad9035b" ParentLink="ServiceDeclaration_PortDeclaration" LowerBound="37.1" HigherBound="39.1">
+                <om:Property Name="PortModifier" Value="Implements" />
+                <om:Property Name="Orientation" Value="Left" />
+                <om:Property Name="PortIndex" Value="-1" />
+                <om:Property Name="IsWebPort" Value="False" />
+                <om:Property Name="OrderedDelivery" Value="False" />
+                <om:Property Name="DeliveryNotification" Value="None" />
+                <om:Property Name="Type" Value="CursoBizTalk.ConsumoServicios.Orquestaciones.AccountPortType" />
+                <om:Property Name="ParamDirection" Value="In" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="AccountPort" />
+                <om:Property Name="Signal" Value="False" />
+                <om:Element Type="LogicalBindingAttribute" OID="0040583b-5161-4732-bb31-81abdb733697" ParentLink="PortDeclaration_CLRAttribute" LowerBound="37.1" HigherBound="38.1">
+                    <om:Property Name="Signal" Value="False" />
+                </om:Element>
+            </om:Element>
+            <om:Element Type="PortDeclaration" OID="420472c0-2fbd-488e-9c27-f9e6de630463" ParentLink="ServiceDeclaration_PortDeclaration" LowerBound="39.1" HigherBound="41.1">
+                <om:Property Name="PortModifier" Value="Uses" />
+                <om:Property Name="Orientation" Value="Right" />
+                <om:Property Name="PortIndex" Value="15" />
+                <om:Property Name="IsWebPort" Value="False" />
+                <om:Property Name="OrderedDelivery" Value="False" />
+                <om:Property Name="DeliveryNotification" Value="None" />
+                <om:Property Name="Type" Value="CursoBizTalk.ConsumoServicios.Orquestaciones.CuentasPortType" />
+                <om:Property Name="ParamDirection" Value="In" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="ServicioCuentasPort" />
+                <om:Property Name="Signal" Value="False" />
+                <om:Element Type="LogicalBindingAttribute" OID="8b8aaac9-f25b-44e6-8a18-ba7885efabb3" ParentLink="PortDeclaration_CLRAttribute" LowerBound="39.1" HigherBound="40.1">
+                    <om:Property Name="Signal" Value="False" />
+                </om:Element>
+            </om:Element>
+            <om:Element Type="MessageDeclaration" OID="32a7d40c-27da-4ca8-8653-28c52357e25d" ParentLink="ServiceDeclaration_MessageDeclaration" LowerBound="41.1" HigherBound="42.1">
+                <om:Property Name="Type" Value="CursoBizTalk.ConsumoServicios.Orquestaciones.AccountRq" />
+                <om:Property Name="ParamDirection" Value="In" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="AccountRqMsj" />
+                <om:Property Name="Signal" Value="True" />
+            </om:Element>
+            <om:Element Type="MessageDeclaration" OID="cc003cd6-921d-4e74-b04a-42de8173e892" ParentLink="ServiceDeclaration_MessageDeclaration" LowerBound="42.1" HigherBound="43.1">
+                <om:Property Name="Type" Value="CursoBizTalk.ConsumoServicios.Orquestaciones.AccountResp" />
+                <om:Property Name="ParamDirection" Value="In" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="AccountRespMsj" />
+                <om:Property Name="Signal" Value="True" />
+            </om:Element>
+            <om:Element Type="MessageDeclaration" OID="3f56db72-db1d-4fab-9da8-039e313d30de" ParentLink="ServiceDeclaration_MessageDeclaration" LowerBound="43.1" HigherBound="44.1">
+                <om:Property Name="Type" Value="CursoBizTalk.ConsumoServicios.Orquestaciones.JSONCuentaRq" />
+                <om:Property Name="ParamDirection" Value="In" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="JSONCuentaReqMsj" />
+                <om:Property Name="Signal" Value="True" />
+            </om:Element>
+            <om:Element Type="MessageDeclaration" OID="dcc3e829-1856-4da9-a41d-de81196e26c6" ParentLink="ServiceDeclaration_MessageDeclaration" LowerBound="44.1" HigherBound="45.1">
+                <om:Property Name="Type" Value="CursoBizTalk.ConsumoServicios.Orquestaciones.JSONCuentaResp" />
+                <om:Property Name="ParamDirection" Value="In" />
+                <om:Property Name="ReportToAnalyst" Value="True" />
+                <om:Property Name="Name" Value="JSONCuentaRspMsj" />
+                <om:Property Name="Signal" Value="True" />
+            </om:Element>
+        </om:Element>
+    </om:Element>
+</om:MetaModel>
+#endif // __DESIGNER_DATA
+[Microsoft.XLANGs.BaseTypes.BPELExportable(false)]
+module CursoBizTalk.ConsumoServicios.Orquestaciones
+{
+    internal messagetype AccountRq
+    {
+        body CursoBizTalk.ConsumoServicios.Esquemas.AccountRq Body;
+    };
+    internal messagetype AccountResp
+    {
+        body CursoBizTalk.ConsumoServicios.Esquemas.AccountResp Body;
+    };
+    internal messagetype JSONCuentaRq
+    {
+        body CursoBizTalk.ConsumoServicios.Esquemas.CuentaReqJSON Body;
+    };
+    internal messagetype JSONCuentaResp
+    {
+        body CursoBizTalk.ConsumoServicios.Esquemas.CuentasResponseJSON Body;
+    };
+    internal porttype AccountPortType
+    {
+        requestresponse Operation_1
+        {
+            AccountRq, AccountResp
+        };
+    };
+    internal porttype CuentasPortType
+    {
+        requestresponse Operation_1
+        {
+            JSONCuentaRq, JSONCuentaResp
+        };
+    };
+    [Microsoft.XLANGs.BaseTypes.BPELExportable(false)]
+    internal service GetAccounts
+    {
+        [Microsoft.XLANGs.BaseTypes.LogicalBinding()]
+        port implements AccountPortType AccountPort;
+        [Microsoft.XLANGs.BaseTypes.LogicalBinding()]
+        port uses CuentasPortType ServicioCuentasPort;
+        message AccountRq AccountRqMsj;
+        message AccountResp AccountRespMsj;
+        message JSONCuentaRq JSONCuentaReqMsj;
+        message JSONCuentaResp JSONCuentaRspMsj;
+        body ()
+        {
+            [Microsoft.XLANGs.BaseTypes.DesignerPosition("6760d632-1451-4d2c-b6ca-38f50372e22b")]
+            activate receive (AccountPort.Operation_1, AccountRqMsj);
+            [Microsoft.XLANGs.BaseTypes.DesignerPosition("c91bd05b-140b-459e-b272-b70900a8f0d7")]
+            scope
+            {
+                body
+                {
+                    [Microsoft.XLANGs.BaseTypes.DesignerPosition("106e4dad-a43c-416e-89f8-cca152acf9b2")]
+                    construct JSONCuentaReqMsj
+                    {
+                        [Microsoft.XLANGs.BaseTypes.DesignerPosition("f1071930-92bf-4e77-bfe0-32006a50c831")]
+                        transform (JSONCuentaReqMsj.Body) = CursoBizTalk.ConsumoServicios.Mapas.AccountRq_JSONCuentaRq (AccountRqMsj.Body);
+                    }
+                    [Microsoft.XLANGs.BaseTypes.DesignerPosition("0f141233-7413-429f-b71d-3829cd71498e")]
+                    send (ServicioCuentasPort.Operation_1, JSONCuentaReqMsj);
+                    [Microsoft.XLANGs.BaseTypes.DesignerPosition("2fed6904-66ab-4c40-b7c4-a7dcd081245f")]
+                    receive (ServicioCuentasPort.Operation_1, JSONCuentaRspMsj);
+                    [Microsoft.XLANGs.BaseTypes.DesignerPosition("6ae647d2-5f60-4370-a366-5a2c6599b891")]
+                    construct AccountRespMsj
+                    {
+                        [Microsoft.XLANGs.BaseTypes.DesignerPosition("6f975750-2bd5-48a8-b03d-854232d3d762")]
+                        transform (AccountRespMsj.Body) = CursoBizTalk.ConsumoServicios.Mapas.JSONCuentaResp_AccountResp (JSONCuentaRspMsj.Body);
+                    }
+                    [Microsoft.XLANGs.BaseTypes.DesignerPosition("f74528a0-4dcc-47b2-8078-8d7a1a87ea8f")]
+                    send (AccountPort.Operation_1, AccountRespMsj);
+                }
+            }
+        }
+    }
+}
+
